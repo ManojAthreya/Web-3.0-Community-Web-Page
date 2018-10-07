@@ -22,8 +22,25 @@
   background: #555;
   padding: 0px;
 }
-
+.main-header1 {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height:50px;
+  color: #fff;
+}
+.main-header1 img {
+  float: right;
+  width: 60px;
+  height: 58px;
+  background: #555;
+  padding: 0px;
+}
 .main-header .showcase {
+  padding-top: 50px;
+}
+
+.main-header1 .showcase {
   padding-top: 50px;
 }
 
@@ -35,7 +52,19 @@
   color: #fff;
 }
 
+.main-header1-inner {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
 .main-header-inner .showcase {
+  padding-top: 100px;
+}
+
+.main-header1-inner .showcase {
   padding-top: 100px;
 }
 
