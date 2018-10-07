@@ -120,3 +120,8 @@
     min-height: 240px;
   }
 }
+
+.p1 {
+  padding-left:25px;
+  padding-right: 25px
+}
