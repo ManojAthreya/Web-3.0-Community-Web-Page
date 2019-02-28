@@ -9,10 +9,27 @@
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/main.css" />
 
+  <script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Web 3.0 Community</title>
 </head>
+
+
+<script>
+  $('#myModal').on('shown.bs.modal', function () {
+  $('#video1')[0].play();
+  })
+  $('#myModal').on('hidden.bs.modal', function () {
+  $('#video1')[0].pause();
+  })
+  
+  </script>
 <body>
     <!-- Header -->
     <header class="main-header1">
@@ -73,27 +90,87 @@
   <section class="section section-icons center">
     <div class="container">
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s6">
           <div class="card-panel">
             <!-- <img src="img/A.jpeg" width="150" height="200"> -->
-            <h5 class="grey-text text-darken-4">Project-1</h5>
-            <p></p>
+            <h5 class="grey-text text-darken-4">E-Petshop using Blockchain Technology. </h5>
+            <p>In this project, we have created an innovative and efficient way of adopting pets using blockchain technology which assures high security to transaction data.</p>
+            <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal">
+              Launch project demo 
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="myModal"  aria-labelledby="myModalLabel">
+              <!-- <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div> -->
+                  <div class="modal-body">
+                    <!-- <video controls id="video1"  style="width: 100%; height: auto; margin:1 auto;" autoplay>
+                      <source src="https://files.fm/down.php?i=h36hsfcy" type="video/mp4">
+                      Your browser doesn't support HTML5 video tag.
+                    </video> -->
+
+                    <iframe width="700" height="450" src="https://www.youtube.com/embed/BYLqzTODvls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <!-- <script type="text/javascript" src="https://files.fm/embed/playerv2?hash=h36hsfcy&w=100%&h=auto" id="filesfm_embed_js__h36hsfcy"></script> -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" data-target="#myModal">Close</button>
+                  </div>
+                <!-- </div>
+              </div> -->
+            </div>
+            
           </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col s6 ">
           <div class="card-panel">
             <!-- <img src="img/M.jpg" width="150" height="200"> -->
-            <h5 class="grey-text text-darken-4">Project-2</h5>
-            <p></p>
+            <h5 class="grey-text text-darken-4">E-Voting using Blockchain Technology</h5>
+            <p>In this project, we have created an efficient way of e-voting which is secured using blockchain technology,the voting is done in a decentralized network.</p>
+
+            <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal">
+              Launch project demo 
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="myModal"  aria-labelledby="myModalLabel">
+              <!-- <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div> -->
+                  <div class="modal-body">
+                    
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/gikN2qB9v5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+                    <!-- <script type="text/javascript" src="https://files.fm/embed/playerv2?hash=h36hsfcy&w=100%&h=auto" id="filesfm_embed_js__h36hsfcy"></script> -->
+
+                    <video width="320" height="240" controls>
+                      <source src="https://www.youtube.com/embed/gikN2qB9v5Y" type="video/mp4">
+                      
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" data-target="#myModal">Close</button>
+                  </div>
+                <!-- </div>
+              </div> -->
+            </div>
           </div>
         </div>
-        <div class="col s12 m4">
+        <!-- <div class="col s12 m4">
           <div class="card-panel">
-            <!-- <img src="img/N.jpeg" width="150" height="200"> -->
+            
             <h5 class="grey-text text-darken-4">Project-3</h5>
             <p></p>
           </div>
-        </div>
+        </div> -->
         </div>
       </div>
     </section>
@@ -104,9 +181,9 @@
         <div class="row">
           <div class="col s12 m15">
             <div class="card-panel">
-    <p>1. <b>"Efficient and Secured Transactions of Data in Crucial Network using Blockchain Technology"</b> is published in International Journal of Pharmaceutical Research| Oct-Nov 2018| Vol 10| Issue 4. </p>
+    <p><a  href="http://ijpronline.com/ViewArticleDetail.aspx?ID=7304" target="_blank">1. <b>"Efficient and Secured Transactions of Data in Crucial Network using Blockchain Technology"</b> is published in International Journal of Pharmaceutical Research| Oct-Nov 2018| Vol 10| Issue 4 Scoupus Indexed.</p></a>
     <p>2. <b>"Efficient and Secured E-Voting in Crucial Network using Blockchain Technology"</b> has been accepted for publishing in the special issue of "Advances and Applications in Mathematical Sciences" ESCI Indexing.</p>
-    <p>3. <b>"Peer-to-Peer File Storage System using Interplanetary File System"</b> is applied for conferences and waiting for approval.</p>
+    <p>3. <b>"Peer-to-Peer File Storage System using Interplanetary File System"</b> submitted for publications.</p>
     </div>
     </div>
     </div>
@@ -122,18 +199,23 @@
           <div class="card-panel">
             <img src="img/A.jpeg" width="150" height="200">
             <h5 class="grey-text text-darken-4">Ashwin A Kumar</h5>
+            <p></p>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="card-panel">
-            <img src="img/M.jpg" width="150" height="200">
-            <h5 class="grey-text text-darken-4">Manoj Athreya A</h5>
+              <a  href="https://www.linkedin.com/in/manojathreyaa" target="_blank">
+                <img src="img/M.jpg" width="150" height="200">
+                <h5 class="grey-text text-darken-4">Manoj Athreya A</h5>
+                <p></p>
+              </a>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="card-panel">
             <img src="img/N.jpeg" width="150" height="200">
             <h5 class="grey-text text-darken-4">Nagarajath S M</h5>
+            <p></p>
           </div>
         </div>
         </div>
