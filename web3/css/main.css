@@ -17,9 +17,9 @@
 }
 .main-header img {
   float: right;
-  width: 60px;
-  height: 58px;
-  background: #555;
+  width: 250px;
+  height: 60px;
+  background: rgb(79, 44, 112);
   padding: 0px;
 }
 .main-header1 {
