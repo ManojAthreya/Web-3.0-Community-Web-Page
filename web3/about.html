@@ -20,7 +20,7 @@
   <title>Web 3.0 Community</title>
 </head>
 
-
+<!-- 
 <script>
   $('#myModal').on('shown.bs.modal', function () {
   $('#video1')[0].play();
@@ -29,7 +29,10 @@
   $('#video1')[0].pause();
   })
   
-  </script>
+  </script> -->
+
+
+  
 <body>
     <!-- Header -->
     <header class="main-header1">
@@ -37,12 +40,12 @@
         <div class="container">
           <div class="nav-wrapper">
             <a href="https://www.vvce.ac.in/cse/">
-                <img src="img/cslogo.png" class="responsive-img" style="float:right;width:80px;height:60px;background-color: transparent;"  >
-              </a>
-              <a href="https://www.vvce.ac.in/">
-                <img src="img/vvcelogo.png" class="responsive-img"  style="float:left;width:80px;height:55px;background-color: transparent;">
-              </a>
-            <a  class="brand-logo">Web 3.0</a>
+              <img src="img/cslogo.png" class="responsive-img" style="float:right;width:80px;height:60px;background-color: transparent;"  >
+            </a>
+            <a href="https://www.vvce.ac.in/">
+              <img src="img/vvcelogo.png" class="responsive-img"  style="float:left;width:80px;height:55px;background-color: transparent;">
+            </a>
+            <a  class="brand-logo" href="index.html">Web 3.0</a>
             <ul class="right hide-on-med-and-down">
               <li>
                 <a class="active-link" href="index.html">Home</a>
@@ -57,7 +60,7 @@
                 <a href="signup.html">Sign Up</a>
               </li> -->
               <li>
-                <a href="https://discord.gg/vgbZSY" class="btn purple modal-trigger" target="_blank">Join Our Community</a>
+                <a href="https://discordapp.com/invite/jBBUUXD" class="btn purple modal-trigger" target="_blank">Join Our Community</a>
               </li>
             </ul>
             <ul class="side-nav" id="mobile-nav">
@@ -80,7 +83,7 @@
                 <div class="divider"></div>
               </li>
               <li>
-                <a href="https://discord.gg/vgbZSY" class="btn purple modal-trigger" target="_blank">Join Our Community</a>
+                <a href="https://discordapp.com/invite/jBBUUXD" class="btn purple modal-trigger" target="_blank">Join Our Community</a>
               </li>
             </ul>
           </div>
@@ -94,17 +97,17 @@
   <section class="section section-icons center">
     <div class="container">
       <div class="row">
-        <div class="col s6">
-          <div class="card-panel">
+        <div class="col s12 m12">
+          <div class="card-panel center-align">
             <!-- <img src="img/A.jpeg" width="150" height="200"> -->
-            <h5 class="grey-text text-darken-4">E-Petshop using Blockchain Technology. </h5>
+            <h4 class="grey-text text-darken-4">E-Petshop using Blockchain Technology</h4>
             <p>In this project, we have created an innovative and efficient way of adopting pets using blockchain technology which assures high security to transaction data.</p>
-            <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal">
-              Project demo 
+            <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal1">
+              Demo 
             </button>
             
             <!-- Modal -->
-            <div class="modal fade" id="myModal"  aria-labelledby="myModalLabel">
+            <div class="modal fade" id="myModal1"  aria-labelledby="myModalLabel">
               <!-- <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -117,51 +120,61 @@
                       Your browser doesn't support HTML5 video tag.
                     </video> -->
 
-                    <iframe width="700" height="450" src="https://www.youtube.com/embed/BYLqzTODvls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <iframe id="myVideo"  width="700" height="450" src="https://www.youtube.com/embed/BYLqzTODvls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
                     <!-- <script type="text/javascript" src="https://files.fm/embed/playerv2?hash=h36hsfcy&w=100%&h=auto" id="filesfm_embed_js__h36hsfcy"></script> -->
-                  </div>
+
+                  
+                    <video id="myVideo1" width="750" height="390" controls>
+                      <source src="video/Petshop.mp4" type="video/mp4">
+                      
+                      Your browser does not support the video tag.
+                    </video>
+                    <!-- <button onclick="pauseVid()" type="button">Pause Video</button> -->
+                </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal" data-target="#myModal">Close</button>
+                    <button type="button" onclick="pauseVid1()" class="btn btn-default" data-dismiss="modal" data-target="#myModal">Close</button>
                   </div>
-                <!-- </div>
+                 <!-- </div>
               </div> -->
-            </div>
-            
+            </div> 
           </div>
         </div>
-        <div class="col s6 ">
-          <div class="card-panel">
+        </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="card-panel center-align">
             <!-- <img src="img/M.jpg" width="150" height="200"> -->
-            <h5 class="grey-text text-darken-4">E-Voting using Blockchain Technology</h5>
-            <p>In this project, we have created an efficient way of e-voting which is secured using blockchain technology,the voting is done in a decentralized network.</p>
+            <h4 class="grey-text text-darken-4">E-Voting using Blockchain Technology</h4>
+            <p>In this project, we created an efficient way of e-voting which is secured using blockchain technology,th e-voting is done in a decentralized network.</p>
 
             <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal">
-              Project demo 
+              Demo 
             </button>
             
             <!-- Modal -->
-            <div class="modal fade" id="myModal"  aria-labelledby="myModalLabel">
+            <div class="modal fade" id="myModal" margin="auto"  aria-labelledby="myModalLabel" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
               <!-- <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel">Modal title</h4>
                   </div> -->
-                  <div class="modal-body">
+                  <div class="modal-body1">
                     
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/gikN2qB9v5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    <!-- <iframe id="myVideo2" width="750" height="420" src="https://www.youtube.com/embed/gikN2qB9v5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
                     <!-- <script type="text/javascript" src="https://files.fm/embed/playerv2?hash=h36hsfcy&w=100%&h=auto" id="filesfm_embed_js__h36hsfcy"></script> -->
 
-                    <video width="320" height="240" controls>
-                      <source src="https://www.youtube.com/embed/gikN2qB9v5Y" type="video/mp4">
+                    <video id="myVideo2" width="750" height="420" controls>
+                      <source src="video/E-voting.mp4" type="video/mp4">
                       
                       Your browser does not support the video tag.
                     </video>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal" data-target="#myModal">Close</button>
+                    <button type="button" class="btn btn-primary " onclick="pauseVid2()" class="pause-video"  data-dismiss="modal" data-target="#myModal">Close</button>
                   </div>
                 <!-- </div>
               </div> -->
@@ -175,8 +188,10 @@
             <p></p>
           </div>
         </div> -->
+      </div>
         </div>
       </div>
+    </div>
     </section>
 
     <h3 style="text-align:center">Research Articles</h3>
@@ -210,9 +225,8 @@
       </div>
       </div>
       </section>
-  
 
-        <!-- Section Team -->
+                <!-- Section Team -->
   <h3 style="text-align:center">Our Team</h3>
   <section class="section section-icons center">
     <div class="container">
@@ -237,7 +251,7 @@
         </div>
         <div class="col s12 m4">
           <div class="card-panel">
-            <a  href="https://www.linkedin.com/in/manojathreyaa" target="_blank">
+            <a  href="https://www.linkedin.com/in/nagarajathsm/" target="_blank">
               <img src="img/N.jpeg" width="150" height="200">
               <h5 class="grey-text text-darken-4">Nagarajath S M</h5>
               <p>Project Lead</p>
@@ -248,46 +262,79 @@
       </div>
     </section>
 
-    <footer class="page-footer deep-purple lighten-1">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Web 3.0 in VVCE</h5>
-              <p class="grey-text text-lighten-4">Join Hands With US!</p>
-              <a href="https://goo.gl/maps/gQm5TCRbEcv" class="grey-text text-lighten-4">
-                <p>Department of Computer Science and Engineering
-                 VIDYAVARDHAKA COLLEGE OF ENGINEERING
-                 P.B. No.206, Gokulam III Stage,
-                 Mysore 570 002, Karnataka, INDIA.
-                 </p>
-               </a>
-            </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Find Us</h5>
-              <ul>
-                  <li>
-                      <a class="grey-text text-lighten-3" href="mailto:web3.0.community@gmail.com">Email: web3.0.community@gmail.com</a>
-                    </li>
+        <!-- Footer -->
+        <footer class="page-footer deep-purple lighten-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Web 3.0 in VVCE</h5>
+                <p class="grey-text text-lighten-4">Join Hands With US!</p>
+                <a href="https://goo.gl/maps/gQm5TCRbEcv" class="grey-text text-lighten-4">
+                  <p>Department of Computer Science and Engineering
+                   VIDYAVARDHAKA COLLEGE OF ENGINEERING
+                   P.B. No.206, Gokulam III Stage,
+                   Mysore 570 002, Karnataka, INDIA.
+                   </p>
+                 </a>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Find Us</h5>
+                <ul>
                     <li>
-                        <a class="grey-text text-lighten-3" href="tel:+91-968-641-8942">Phone: +91 9686418942</a>
+                        <a class="grey-text text-lighten-3" href="mailto:web3.0.community@gmail.com">Email: web3.0.community@gmail.com</a>
                       </li>
-                <li>
-                  <a class="grey-text text-lighten-3" href="https://github.com/Web3Community" target="_blank">Github <i class="fab fa-github"></i></a>
-                </li>
-                <li>
-                  <a class="grey-text text-lighten-3" href="https://www.facebook.com/Web-30-Community-514734405707737/" target="_blank">Facebook <i class="fab fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="grey-text text-lighten-3" href="https://www.instagram.com/web3.0.community/"  target="_blank">Instagram<i class="fab fa-instagram"></i></a>
-                </li>
-              </ul>
+                      <li>
+                          <a class="grey-text text-lighten-3" href="tel:+91-968-641-8942">Phone: +91 9686418942</a>
+                        </li>
+                  <li>
+                    <a class="grey-text text-lighten-3" href="https://github.com/Web3Community" target="_blank">Github <i class="fab fa-github"></i></a>
+                  </li>
+                  <li>
+                    <a class="grey-text text-lighten-3" href="https://www.facebook.com/Web-30-Community-514734405707737/" target="_blank">Facebook <i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a class="grey-text text-lighten-3" href="https://www.instagram.com/web3.0.community/"  target="_blank">Instagram<i class="fab fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="footer-copyright deep-purple darken-1">
-          <div class="container" align="center">
-            Web 3.0 Community &copy; 2019
-            <!-- <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a> -->
+          <div class="footer-copyright deep-purple darken-1">
+            <div class="container" align="center">
+              Web 3.0 Community &copy; 2019
+              <!-- <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a> -->
+            </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+
+
+      <script> 
+        var vid1 = document.getElementById("myVideo1"); 
+        
+        // function playVid() { 
+        //   vid.play(); 
+        // } 
+        
+        function pauseVid1() { 
+          vid1.pause(); 
+        } 
+
+
+        var vid2 = document.getElementById("myVideo2");
+       
+        
+        // function playVid() { 
+        //   vid.play(); 
+        // } 
+        
+        function pauseVid2() { 
+          vid2.pause(); 
+        } 
+
+
+
+        
+        </script> 
+
+
+
